@@ -14,7 +14,7 @@ function Navbar() {
                         </Typography>
                     </Box>
 
-                    <Box display="flex" justifyContent="start">
+                    <Box display="flex" justifyContent="start" >
                         <Box mx={1} className="cursor">
                             <Typography variant="h6" color="inherit">
                                 Home
@@ -44,9 +44,7 @@ function Navbar() {
                                     Logout
                                 </Typography>
                             </Box>
-                        </Link>
-
-                        
+                        </Link>                        
                     </Box>
                 </Toolbar>
             </AppBar>
