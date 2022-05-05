@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Box, Grid, Typography } from '@material-ui/core';
+import TabPostagem from '../../components/postagens/tabpostagem/TabPostagem';
 import './Home.css';
 function Home() {
     return (
