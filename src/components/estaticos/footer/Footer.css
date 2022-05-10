@@ -1,10 +1,11 @@
 .box1{
-    background-color: #3F5185;
-    height: 120px; 
+    background-color: #b365dd;
+    height: 80px; 
+    text-align: center;
 }
 
 .box2{
-    background-color: #303F9F;
+    background-color: #7500b4;
     height: 60px;
  }
 
@@ -15,4 +16,5 @@
 
 .txt{
     color: white;
+    text-decoration: none;
 }

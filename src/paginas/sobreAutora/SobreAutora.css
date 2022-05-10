@@ -1,0 +1,26 @@
+.fundo{
+    background-color: #a972c3 ;
+
+}
+.imgSA{
+    background-image: url(https://i.pinimg.com/236x/43/e5/d8/43e5d89e5bdeec66060191a743868572.jpg);
+    background-repeat: no-repeat;
+    width: 100vh;
+    min-height:110vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.txtSA {
+
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.txt1SA {
+
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}

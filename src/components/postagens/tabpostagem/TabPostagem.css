@@ -1,3 +1,8 @@
 .titulo{
     font-weight: bold;
  }
+
+ .txtTP{
+     font-size: 40px !important;
+     color: #e7f7f7 !important;
+ }
