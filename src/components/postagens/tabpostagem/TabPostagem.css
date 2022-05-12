@@ -6,3 +6,11 @@
      font-size: 40px !important;
      color: #e7f7f7 !important;
  }
+
+ .color1 {
+    background-color: #b365dd !important;
+    justify-content: center !important;
+    display: flex;
+    font-size: 70px !important;
+
+ }

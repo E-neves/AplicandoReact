@@ -1,9 +1,29 @@
-.cursor{
+.cursor {
     cursor: pointer;
-    color: white;    
+    color: white;
+    margin-left: 50px;
 }
 
-.text-decorator-none{
+.text-decorator-none {
     text-decoration: none;
 }
 
+.color {
+    background-color: #b365dd !important;
+    justify-content: center !important;
+    display: flex;
+    font-size: 70px !important;
+    margin-left: 50px;
+
+}
+
+.log {
+    margin-left: 600px !important;
+
+
+}
+
+.fundo2 {
+    background-color: #b365dd !important;
+
+}

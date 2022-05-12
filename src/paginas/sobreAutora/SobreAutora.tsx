@@ -2,12 +2,15 @@ import React, { useEffect } from "react";
 import './SobreAutora.css';
 import { Grid, Box } from '@material-ui/core';
 import { useNavigate } from "react-router-dom";
-import useLocalStorage from "react-use-localstorage";
+import { useSelector } from "react-redux";
+import { TokenState } from "../../store/tokens/tokensReducer";
 
 function SobreAutora() {
 
     let navigate = useNavigate();
-    const [token, setToken] = useLocalStorage('token');
+    const token = useSelector<TokenState, TokenState["tokens"]>(
+        (state) => state.tokens
+        );
     
     useEffect(() => {
       if (token == "") {

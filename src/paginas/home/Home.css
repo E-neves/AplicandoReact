@@ -14,13 +14,13 @@
     border-color: white !important;
     background-color: #e29b26 !important;
     color: white !important;
-   
+    text-align: center !important;
 }
 
 .caixa{
-    background-color: #67a797;
+    background-color: #67a797 ;
 }
 
 .postagens{
-    background-color: #a5beb8a8;
+    background-color: #a5beb8a8 !important;
 }
