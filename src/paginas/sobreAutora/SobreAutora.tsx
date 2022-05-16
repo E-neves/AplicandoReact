@@ -25,9 +25,9 @@ function SobreAutora() {
             <Grid container direction='row' justifyContent='center' alignItems='center' className='fundo' >
                 <Grid alignItems='center' xs={6} >
                     <Box>
-                        <h2 className="txt1SA">TITULO DO TEXTO</h2>
+                        <h2 className="txt1SA , tst ">TITULO DO TEXTO</h2>
 
-                        <p className="txtSA" >
+                        <p className="txtSA , tst " >
                             Por mais que você corra, irmão
                             Pra sua guerra vão nem se lixar
                             Esse é o xis da questão

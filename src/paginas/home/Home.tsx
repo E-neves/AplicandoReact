@@ -8,6 +8,8 @@ import { useSelector } from 'react-redux';
 import { TokenState } from '../../store/tokens/tokensReducer';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
+
+
 function Home() {
 
     let navigate = useNavigate();
@@ -37,15 +39,15 @@ function Home() {
             <Grid container direction="row" justifyContent="center" alignItems="center" className='caixa'>
                 <Grid alignItems="center" item xs={6}>
                     <Box paddingX={20} >
-                        <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" className='titulo'>Seja bem vindo(a)!</Typography>
-                        <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className='titulo'>Espaço seguro para que você expresse seus pensamentos e opiniões!</Typography>
+                        <Typography variant="h3" gutterBottom color="textPrimary" component="h1" align="center" className='titulo , tst , grandtxt '>Seja bem vindo(a)!</Typography>
+                        <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className='titulo , tst'>Espaço seguro para que você expresse seus pensamentos e opiniões!</Typography>
                     </Box>
                     <Box display="flex" justifyContent="center">
                         <Box marginRight={1}>
                             <ModalPostagem />
                         </Box>
                         <Link to="/posts" className='text-decorator-none'>
-                        <Button variant="outlined" className='botao12'>Ver Postagens</Button>
+                        <Button variant="outlined" className='botao12 , tst '>Ver Postagens</Button>
                         </Link>                   
                     </Box>
                 </Grid>

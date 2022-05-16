@@ -16,5 +16,5 @@
 
 .txt{
     color: white;
-    text-decoration: none;
+    text-decoration: none !important;
 }

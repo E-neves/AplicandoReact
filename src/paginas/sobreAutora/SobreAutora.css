@@ -1,9 +1,9 @@
 .fundo{
-    background-color: #a972c3 ;
+    background-color: white;
 
 }
 .imgSA{
-    background-image: url(https://i.pinimg.com/236x/43/e5/d8/43e5d89e5bdeec66060191a743868572.jpg);
+    background-image: url(https://i.pinimg.com/originals/e2/d5/8d/e2d58d53e808d56015b92655e15ecf6f.jpg);
     background-repeat: no-repeat;
     width: 100vh;
     min-height:110vh;
@@ -14,13 +14,13 @@
 .txtSA {
 
     text-align: center;
-    color: white;
+    color: #634171;
     font-size: 20px;
 }
 
 .txt1SA {
 
     text-align: center;
-    color: white;
+    color: #634171;
     font-size: 45px;
 }

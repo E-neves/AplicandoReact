@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 import { Box, Card, CardActions, CardContent, Button, Typography } from '@material-ui/core';
 import Tema from '../../../models/Tema';
 import './ListaTema.css';
-import useLocalStorage from 'react-use-localstorage';
 import { useNavigate } from 'react-router-dom';
 import { busca } from '../../../services/Service';
 import { useSelector } from 'react-redux';
 import { TokenState } from '../../../store/tokens/tokensReducer';
 import { toast } from 'react-toastify';
+import { createTemplateSpan } from 'typescript';
 
 function ListaTema() {
     const [temas, setTemas] = useState<Tema[]>([])
@@ -35,7 +35,7 @@ function ListaTema() {
 
 
     async function getTema() {
-        await busca("/tema", setTemas, {
+        await busca("/temas", setTemas, {
             headers: {
                 'Authorization': token
             }
@@ -51,30 +51,30 @@ function ListaTema() {
     return (
         <>
             {
-                temas.map(tema => (
+                temas.map(temas => (
                     <Box m={2} >
                         <Card variant="outlined">
                             <CardContent>
-                                <Typography color="textSecondary" gutterBottom>
+                                <Typography color="textSecondary" gutterBottom className='tst'>
                                     Tema
                                 </Typography>
-                                <Typography variant="h5" component="h2">
-                                    {tema.descricao}
+                                <Typography variant="h5" component="h2" className='tst'>
+                                    {temas.descricao}
                                 </Typography>
                             </CardContent>
                             <CardActions>
                                 <Box display="flex" justifyContent="center" mb={1.5} >
 
-                                    <Link to={`/formularioTema/${tema.id}`} className="text-decorator-none">
+                                    <Link to={`/formularioTema/${temas.id}`} className="text-decorator-none">
                                         <Box mx={1}>
-                                            <Button variant="contained" className="marginLeft" size='small' color="primary" >
+                                            <Button variant="contained" className="marginLeft , btn1 , tst " size='small' >
                                                 atualizar
                                             </Button>
                                         </Box>
                                     </Link>
-                                    <Link to={`/deletarTema/${tema.id}`} className="text-decorator-none">
+                                    <Link to={`/deletarTema/${temas.id}`} className="text-decorator-none">
                                         <Box mx={1}>
-                                            <Button variant="contained" size='small' color="secondary">
+                                            <Button variant="contained" size='small' className="marginLeft , btn2 , tst" >
                                                 deletar
                                             </Button>
                                         </Box>

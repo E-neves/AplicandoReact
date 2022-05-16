@@ -1,5 +1,6 @@
 .txt1{
   font-weight: bold !important;
+  color: #b1716e;
 } 
 
 .img{
@@ -13,5 +14,26 @@
 
 .text-decorator-none {
     text-decoration: none ;
+}
+
+.btnLogin {
+  background-color: #b1716e !important;
+  color: white !important;
+}
+
+.corLogin {
+  color: #560f6f !important; 
+}
+
+.al{
+  font-size: 60px !important;
+}
+
+.btnLogin2 {
+  color: white !important;
+  text-decoration: none;
+  background-color: #560f6f !important;
+  margin-left: 60px;
+
 }
 

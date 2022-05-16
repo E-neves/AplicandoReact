@@ -1,7 +1,7 @@
 .cursor {
     cursor: pointer;
     color: white;
-    margin-left: 50px;
+    margin-left: 50px;    
 }
 
 .text-decorator-none {
@@ -27,3 +27,8 @@
     background-color: #b365dd !important;
 
 }
+
+.tst{
+    
+    font-family: Georgia !important;
+} 

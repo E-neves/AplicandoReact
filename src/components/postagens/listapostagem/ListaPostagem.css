@@ -1,3 +1,20 @@
 .text-decorator-none{
     text-decoration: none;
+   
+}
+
+.btn1 {
+
+    background-color: #a028a9 !important;
+    color: white !important;
+}
+
+.btn2 {
+
+    background-color: #a028a955 !important;
+    color: white !important;
+}
+
+.fun{
+    background-color: brown !important;
 }

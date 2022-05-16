@@ -21,7 +21,7 @@ function Footer() {
             <Grid alignItems="center" item xs={12}>
                 <Box className="box1">
                     <Box paddingTop={1} display="flex" alignItems="center" justifyContent="center">
-                        <Typography variant="h5" align="center" gutterBottom className="txt">Venha fazer parte das nossas redes sociais:</Typography>
+                        <Typography variant="h5" align="center" gutterBottom className="txt , tst ">Venha fazer parte das nossas redes sociais:</Typography>
                     </Box>
                     <Box display="flex" alignItems="center" justifyContent="center">
                         <a href="https://www.facebook.com/generationbrasil" target=" blank" rel="noopener noreferrer">
@@ -37,11 +37,11 @@ function Footer() {
                 </Box>
                 <Box className="box2">
                     <Box paddingTop={1}>
-                        <Typography variant="subtitle2" align="center" gutterBottom className="txt">©2020 Copyright:</Typography>
+                        <Typography variant="subtitle2" align="center" gutterBottom className="txt , tst ">©2020 Copyright:</Typography>
                     </Box>
-                    <Box>
-                        <a target="_blank" href="https://brasil.generation.org">
-                            <Typography variant="subtitle2" align="center" gutterBottom className="txt">brasil.generation.org</Typography>
+                    <Box >
+                        <a  className="txt" target="_blank" href="https://brasil.generation.org">
+                            <Typography variant="subtitle2" align="center" gutterBottom className="txt , tst ">brasil.generation.org</Typography>
                         </a>
                     </Box>
                 </Box>

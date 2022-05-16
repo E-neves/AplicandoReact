@@ -16,6 +16,15 @@
 
 .btnCancelar{
     margin-right: 20px !important ;
+    background-color: #6d3240 !important;
+    color: white !important;
+    opacity: 0.6;
+}
+
+.btnCadastrar{
+    margin-right: 20px !important ;
+    background-color: #ca2e5c !important;
+    color: white !important;
 }
 
 .teste {

@@ -1,0 +1,18 @@
+.imgVitrine{
+align-items: center !important;
+
+}
+
+.in{
+    background-image: url(https://64.media.tumblr.com/2723ef4f0420b8ac52a57ba68dbbbb6c/tumblr_orweg3DNGz1vw5y4oo1_1280.jpg);
+    background-repeat: no-repeat;
+    width: 50vh;
+    min-height:110vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.fund{
+    background-color: white ;
+}
